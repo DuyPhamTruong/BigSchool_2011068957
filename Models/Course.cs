@@ -12,6 +12,8 @@ namespace BigSchool_2011068957.Models
         public int Id { get; set; }
         public ApplicationUser Lecturer {get; set; }
         [Required]
+        public string LecturerId { get; set; }
+        [Required]
         [StringLength(255)]
         public String Place { get; set; }
         public DateTime DateTime { get; set; }
