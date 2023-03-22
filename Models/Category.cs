@@ -12,5 +12,6 @@ namespace BigSchool_2011068957.Models
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
+        public object Course { get; internal set; }
     }
 }

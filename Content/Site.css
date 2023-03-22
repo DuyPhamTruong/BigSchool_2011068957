@@ -48,16 +48,25 @@ textarea {
     margin-bottom:30px;
 
 }
-.course>li.date{
+.course .date{
     text-align:center;
-    background-color:#ff0000;
+    background-color:#ff006e;
     color:white;
     width:60px;
     border-radius:8px;
 }
-.course>li.details{
+.course .details{
     position:absolute;
     top: 0;
     left:70px;
-
+    
 }
+    .course > li .action {
+        display: none;
+        left: 70px;
+        position: absolute;
+    }
+
+    .course > li:hover .action {
+        display: block;
+    }
